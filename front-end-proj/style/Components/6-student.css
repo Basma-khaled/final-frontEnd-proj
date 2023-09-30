@@ -1,0 +1,143 @@
+.secsseful-student{
+
+
+    padding: 100px 0px;
+}
+
+.secsseful-student .main-pic {
+   
+ 
+    height: fit-content;
+    position: relative;
+}
+.secsseful-student .main-pic .std-pic{
+   width: 100%;
+   
+    
+}
+
+.top-png{
+    position: relative;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+.top-png .top-img{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+}
+.top-png .yellow-div{
+    width: 80px;
+    height: 80px;
+    background-color: #FDC800;
+    border-radius: 6%;
+}
+span.std-name{
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.5rem 5rem;
+    border-radius: 4px;
+    position: absolute;
+    bottom:0;
+   left: 50%;
+   transform: translate(-50% , 50%);
+    text-wrap: nowrap;
+    color: #757575;
+    border: 0.5px solid #4f6074;
+ 
+
+}
+span.std-name h4{
+    color:#212529;
+
+}
+.secsseful-student .container{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap:5rem;
+  
+}
+
+.secsseful-content{
+    align-self: center;
+}
+.secsseful-content p{
+    padding: 1rem 0px;
+}
+.secsseful-content h1{
+    font-size: xxx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #002147;
+}
+.secsseful-content h5.secsseful-content{
+    padding-top: 2rem;
+    padding-bottom:1rem ;
+    color: #002147;
+}
+.secsseful-content h1 .Feedback{
+    color:#FDC800
+}
+.secsseful-content p{
+    text-align:justify;
+}
+
+.std-course{
+    display: flex;
+    background-color:#F0F4F9;
+   align-items: center;
+   position: relative;
+   justify-content: start;
+   /* padding: 0.5rem 0rem;; */
+   width: 511px;
+   height: 97px;
+   border-radius: 5px;
+   margin-left:3rem  ;
+   text-wrap: nowrap;
+   
+}
+.std-course span.student-course{
+    padding-left: 2rem;
+    color: #757575;
+ 
+}
+.std-course span.student-course h5{
+    padding: 0.5rem 0rem;
+    color:#002147
+ 
+}
+
+.std-course img{
+   position: absolute;
+  bottom: 0;
+ right:100%;
+ width: 60px;
+ height: 60px;
+ top:0%;
+ right:100%;
+ transform: translate(30%,30%);
+ 
+}
+
+@media screen and (max-width: 992px) {
+
+    .secsseful-student .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    .secsseful-content h1{
+        padding-top: 1rem;
+        font-size: 35px;
+    }
+    .std-course{
+        width: 100%;
+       
+        margin-left:0rem  ;
+    }
+}
+     

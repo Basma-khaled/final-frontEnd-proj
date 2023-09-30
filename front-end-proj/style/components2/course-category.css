@@ -1,0 +1,96 @@
+
+.select-Course-category {
+    padding-top: 3rem;
+    background-color: #F0F4F9;
+    width: 100%;
+    height: 541px;
+   padding-bottom: 10rem;
+
+
+}
+
+.container .select{
+    width: 100%;  
+}
+
+.container h5 {
+    color: #FDC800;
+    padding-bottom: 0.5rem;
+}
+
+.container h1 {
+    color: #002147;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    text-wrap: nowrap;
+}
+
+.select-Course-category .select {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.select h3 {
+    color: #002147;
+    padding: 1rem 0rem;
+}
+
+.select .slector select {
+    background-color: #fff;
+    padding: 0.5rem 8rem 0.5rem 0.5rem;
+    border: 0.5px solid #BDBDBD;
+    color: #002147;
+    width: 100%;
+  
+}
+
+.select .slector select:hover {
+    border: 1px solid #FDC800;
+
+}
+
+@media (max-width:992px) {
+
+    .select-Course-category .select {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .container .courses .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+       
+    }
+    .select-Course-category {
+        width: 100%;
+        height: 100%;
+    
+    
+    }
+    
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .select-Course-category .select {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+    .container .courses .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+       
+    }
+   
+}
+
+

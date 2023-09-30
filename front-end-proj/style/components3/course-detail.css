@@ -1,0 +1,123 @@
+.Course-detail{
+    background-color:#F0F4F9;
+    padding-top: 4rem;
+    height: 541px;
+ 
+}
+.Course-detail .container .course-titel{
+    padding-bottom:0rem ;
+}
+.Course-detail .container .course-titel h5{
+    padding-bottom:1rem ;
+    color: #FDC800;
+}
+.Course-detail .container .course-titel h1{
+    color:#002147;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   line-break:auto;
+}
+.Course-detail .container .course-titel{
+    padding-bottom:3rem ;
+}
+
+.Course-detail .Course-detail-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+    position: relative;
+    transform: translate(0%,5%);
+    gap: 3rem;
+   
+   
+}
+.Course-detail .Course-detail-top img{
+max-width: 100%;
+   
+   
+}
+.course-info{
+display:grid;
+grid-template-columns: repeat(1,1fr);
+border: 0.5px solid #BDBDBD;
+border-radius: 6px;
+background-color: #fff;
+height: 555px;
+width: 370px;
+}
+
+.course-info img{
+padding: 2rem 9rem;
+max-width: 100%;
+}
+.Contact-a-customer{
+    text-align: center;
+   
+}
+.Contact-a-customer span{
+    color:#BDBDBD;
+}
+.Contact-a-customer a{
+    color:#00B2B2;
+}
+.course-info span.info{
+    padding: 1rem 5rem 1rem 1rem ;
+    border-bottom:0.5px solid #BDBDBD  ;
+   
+}
+.course-info span.info h4{
+  display: inline-block;
+   
+}
+.paragragh{
+    padding-top: 3rem;
+}
+.paragragh h1{
+   color: #002147;
+   padding-bottom: 2rem;
+}
+.Description{
+    padding-bottom:3rem ;
+}
+.Description p{
+    text-align: justify;
+    color:#212529;
+}
+.What-You-Learn h5{
+    display: inline-block;
+}
+.What-You-Learn {
+    text-align: justify;
+}
+.What-You-Learn p{
+   padding-bottom: 0.5rem;
+   color:#212529;
+  
+}
+.Course-detail .What-You-Learn i{
+padding-right: 1rem;
+color:#00B2B2;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .Course-detail .Course-detail-top{
+      flex-direction: column;
+       
+       
+    }
+    .Course-detail .Course-detail-top img{
+     padding-bottom: 3rem;
+       
+       
+    }
+    .Course-detail{
+       
+        height: 100%;
+     
+    }
+    
+  }
+  

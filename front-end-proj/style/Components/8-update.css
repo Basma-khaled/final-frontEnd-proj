@@ -1,0 +1,83 @@
+.update .container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.update {
+    padding: 5rem 0rem;
+}
+.up h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #002147;
+    padding-bottom: 1rem;
+    text-wrap: nowrap;
+}
+.up h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-bottom: 1rem;
+    color: #FDC800;
+}
+.update .email input{
+    border: 0;
+    padding-left: 0.5rem;
+}
+.update form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border:1px solid #CCCCCC;
+    width: 100%;
+    
+    
+}
+.update .email .mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.update .email button.Subscrible-now {
+   background-color: #FDC800;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color:#002147;
+    font-size:small;
+    text-wrap: nowrap;
+    border:none ;
+ 
+    
+}
+
+.update .container .update-img img{
+    width:80%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .update .container {
+      flex-direction:column;
+      text-align: left;
+    }
+  
+    .up{
+      order: 1;
+    }
+  
+    .update .container .update-img img {
+      order: 2;
+     
+    }
+
+    .up h1{
+       font-size: 35px;
+     
+      
+    } 
+
+    form{
+        width:100%;
+    }
+    
+  }

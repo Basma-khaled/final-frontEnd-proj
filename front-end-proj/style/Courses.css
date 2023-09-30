@@ -1,0 +1,29 @@
+@import './Components/0-global.css';
+@import './../style/Components/1-titel.css';
+@import './../style/Components/2-header.css';
+@import './../style/Components/8-update.css';
+@import './../style/Components/9-contact-us.css';
+@import'./../style/components2/course-category.css';
+@import'./../style/components2/feature.css';
+
+
+
+
+
+
+
+
+
+.courses-up{
+   margin-top:60rem;
+   margin-bottom:4rem;
+  
+}
+
+@media (max-width:992px) {
+    .courses-up{
+        margin-top:10rem;
+    
+     }
+}
+

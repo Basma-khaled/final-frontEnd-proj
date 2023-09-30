@@ -1,0 +1,94 @@
+
+
+.offers{
+ 
+  color: #fff; 
+  position: relative;
+  width: 100%;
+  transform: translate(0px,70px);
+  padding-bottom: 3rem;
+  
+}
+
+.container .offers {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #002147;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+    flex-wrap:wrap;
+  
+   
+  
+}
+
+
+
+.numbers{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+
+}
+h6.name{
+    padding-top: 1rem;
+    font-size: 10px;
+}
+
+.offer-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   gap: 1rem;
+    flex-wrap: wrap;
+   
+}
+.offer-content h1 span{
+    color:#FDC800;
+   
+}
+.offer-content .offer-pic img{
+    width: 100%;
+}
+
+ .numbers{
+    display:flex;
+    justify-content:space-between;
+    gap: 1rem;
+    
+    
+}
+ .num h1{
+    font-size: 40px;
+    
+}
+.timer span{
+    display: inline-block;
+   
+}
+
+.timer-name .days{
+    margin-left: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+    .numbers{
+      
+        padding: 1rem 0rem ;
+      width: 100%;
+    }
+    .container .offers{
+        width: 100%;
+    }
+    .numbers .num  {
+        font-size: 5px;
+        padding-bottom: 1rem;
+        
+    }
+    
+  }
+  

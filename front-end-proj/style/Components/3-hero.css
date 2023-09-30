@@ -1,0 +1,34 @@
+.hero{
+  background-color:  #F0F4F9;
+}
+
+.hero .hero-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text{
+  color:  #002147;
+  padding: 0rem;
+}
+.hero-text h1{
+ padding: 1rem 0rem;
+ font-size: 30px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero-text .read-more{
+
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: normal;
+  color: #002147;
+  border: 0.5px solid  #BDBDBD;
+
+}
+@media screen and (max-width: 768px){
+
+  .hero .hero-top{
+    flex-direction: column-reverse;
+  }
+}

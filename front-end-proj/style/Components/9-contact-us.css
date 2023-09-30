@@ -1,0 +1,83 @@
+.Contact-Us{
+    padding:5rem 0rem ;
+    background-color: #002147;
+    position: relative;
+}
+.Contact-Us .left-side .brand span{
+    color:#fff;
+}
+.Contact-Us .left-side .brand{
+    padding-bottom: 2rem;
+}
+.our-info{
+    display: grid;
+    color: #fff;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+}
+.Contact-Us .container .top-side{
+display: flex;
+justify-content: space-between;
+align-items:start;
+flex-wrap: wrap;
+}
+.Contact-Us .container .right-side{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 2rem;
+color: #fff;
+}
+.Contact-Us .container .right-side ul li{
+ padding-bottom: 1rem;
+}
+.Contact-Us .container .right-side ul h3{
+ padding-bottom: 1rem;
+}
+.Contact-Us .brand span {
+    font-size: 24px;
+}
+.our-info a{
+    
+    color: #fff;
+    
+}
+.Contact-Us .titel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+   transform: translate(-50%,0%);
+   width: 80%;
+    }
+
+
+@media screen and (max-width: 1200px) {
+   
+    .Contact-Us .container .right-side{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 2rem 0rem;
+    }
+    @media screen and (max-width: 576px) {
+
+        .Contact-Us .container .right-side{
+            grid-template-columns: repeat(1,1fr);
+        }
+  }
+  .Contact-Us .titel{
+  display: none;;
+  }
+
+}
+.Contact-Us .left-side i{
+    padding-right: 0.5rem;
+}
+.our-info a:hover{
+    
+    color:rgb(65, 118, 172);
+    
+}

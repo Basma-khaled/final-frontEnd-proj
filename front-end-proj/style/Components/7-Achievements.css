@@ -1,0 +1,39 @@
+.Achievements-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.Achievements-content{
+ margin: auto;
+}
+.Achievements{
+    padding-top:5rem;
+    padding-bottom:4rem;
+    background-image:linear-gradient( #f0f4f976,#f0f4f99f) ,url(./../../img/home-pic/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.obj-detail{
+    display: grid;
+    text-align: center;
+  
+    
+}
+.obj-detail h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 3rem;
+   padding: 1rem 0rem;
+   color: #002147;
+   
+  
+    
+}
+.obj-detail h5{
+   color: #00B2B2;
+
+  
+    
+}
